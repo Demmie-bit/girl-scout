@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background:black;
+}
+h1,h2,h3{
+    background-color:#94ed74;
+}
+li:hover{
+     background-color: #111;
+}
+li a:hover {
+  background-color: #111;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+li{
+    list-style: none;
+    float:right;
+    margin-right:10px;
+    border-width:thin;
+    border-style:solid;
+    padding-right:5px;
+    padding-left:5px;
+    cursor: pointer;
+    font-family:cursive;
+    background-color:dimgray;
+}
+p{
+    color:azure;
+}
+p a{
+    font-style: normal;
+    color:azure;
+}
+img { transition: transform .5s; } img:hover { transform: scale(0.9); }
+#Cdiv{
+    background-color: white;
+    position:center;
+}
